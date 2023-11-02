@@ -1,0 +1,74 @@
+/*
+Theme Name: ThePro
+Theme URI: http://www.example.com/
+Description: Custom Theme Made By Dev.
+Author: Husnain
+Author URI: http://www.yourwebsite.com/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ThePro
+
+Optional custom CSS for your theme can be placed below this comment.
+*/
+
+/* Reset default styles */
+body, div, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Navigation Menu Styles */
+nav {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Content Styles */
+.content {
+    margin: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-menu #menu-header{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-menu #menu-header a{
+    color: #fff;
+}
+.navbar-menu #menu-header a:hover{
+    color: red;
+    text-decoration: underline;
+}
